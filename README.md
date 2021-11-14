@@ -18,19 +18,19 @@ but TensorRT version must be corresponding with cuda version
 
 ## 2.Train PyTorch Network
 ```
-cd tools
+cd pytorch
 python train.py
 ```
 
 ## 3.Export ONNX Model
 ```
-cd tools
+cd pytorch
 python export_onnx.py
 ```
 
 ## 4.Build lenet_trt Project
 ```
-cd deploy
+cd cpp
 mkdir build && cd build
 cmake ..
 make -j
