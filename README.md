@@ -1,4 +1,4 @@
-# simple-tensorrt-deploy
+# Simple demo from pytorch to tensorrt-cpp
 ## LeNet Network PyTorch=>ONNX=>TensorRT
 - This is a simple tensorrt example for mnist data
 - Convert onnx to trt automaticly
