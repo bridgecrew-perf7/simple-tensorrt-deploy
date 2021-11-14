@@ -16,33 +16,32 @@ but TensorRT version must be corresponding with cuda version
 
 
 ## 2.Train PyTorch Network
-``
+```
 cd tools
 python train.py
-``
+```
 
 ## 3.Export ONNX Model
-``
+```
 cd tools
 python export_onnx.py
-``
+```
 
 ## 4.Build lenet_trt Project
-``
+```
 cd deploy
 mkdir build && cd build
 cmake ..
 make -j
-``
+```
 
 ## 5.Run lenet_trt
-``
+```
 ./lenet_trt ../../config.yaml ../../samples
-``
+```
 
 ## 6.Benchmark(2080Ti)
 model|PyTorch|TensorRT|
 ---|---|---
 inference time|0.4ms|0.046ms
-`
 
