@@ -1,6 +1,7 @@
 # simple-tensorrt-deploy
 ## LeNet Network PyTorch=>ONNX=>TensorRT
-This is a simple tensorrt example for mnist data
+- This is a simple tensorrt example for mnist data
+- Convert onnx to trt automaticly
 
 ## 1.Reference
 - **LeNet:** [Gradient-Based Learning Applied to Document Recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
@@ -36,6 +37,7 @@ make -j
 ```
 
 ## 5.Run lenet_trt
+Convert onnx to trt model automaticly
 ```
 ./lenet_trt ../../config.yaml ../../samples
 ```
