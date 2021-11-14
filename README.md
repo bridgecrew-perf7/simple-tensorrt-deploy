@@ -45,3 +45,5 @@ model|PyTorch|TensorRT|
 ---|---|---
 inference time|0.4ms|0.046ms
 
+## 7. Infer Result
+![infer_result](./images/infer_result.png)
